@@ -5,7 +5,7 @@ from kivymd.app import MDApp
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.list import OneLineAvatarListItem
 from kivymd.uix.pickers import MDDatePicker
-from projectr.data.GlobalData import GlobalData
+from data.GlobalData import GlobalData
 
 
 class ItemGranularity(OneLineAvatarListItem):

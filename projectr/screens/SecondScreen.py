@@ -8,12 +8,12 @@ from kivy.uix.image import Image
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.screenmanager import Screen
-from projectr.data.GlobalData import GlobalData
+from data.GlobalData import GlobalData
 from datetime import datetime
 from meteostat import Point
 
-from projectr.dataAnalysis.dataAnalysis import DataAnalysis
-from projectr.linreg.linreg import LinReg
+from dataAnalysis.dataAnalysis import DataAnalysis
+from linreg.linreg import LinReg
 
 
 def plot_graphs(data, dates, label):
